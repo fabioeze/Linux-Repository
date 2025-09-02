@@ -26,10 +26,10 @@ Ao executar o comando ls -l, podemos ver informações sobre permissões dos arq
 
 Pegamos o primeiro campo -rw-r--r-- e separamos da seguinte forma:
 
-- | Identificador de diretório, se for "d" é diretório/pasta
-rw- | Permissões do dono do arquivo, (rw- possui permissões para ler e escrever no arquivo, mas não para executar)
-r-- | Permissões do Grupo do arquivo (r-- possui permissão apenas para ler o arquivo)
-r-- | Permissões para Outros usuários (r-- possui permissão apenas para ler o arquivo)
+1. **"-":** Identificador de diretório, se for "d" é diretório/pasta
+2. **"rw-":** Permissões do dono do arquivo, (rw- possui permissões para ler e escrever no arquivo, mas não para executar)
+3. **"r--":** Permissões do Grupo do arquivo (r-- possui permissão apenas para ler o arquivo)
+4. **"r--":** Permissões para Outros usuários (r-- possui permissão apenas para ler o arquivo)
 
 Quando uma permissão está disponivel o caractere correspondente a ela é apresentado (rwx), quando a permissão não existe é apresentado apenas o caractere "-". 
 Se um usuario que não possui acesso tenta acessar o arquivo é gerado um erro de acesso negado.
