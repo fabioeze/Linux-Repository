@@ -1,4 +1,4 @@
-# Permissões no Linus
+# Permissões no Linux
 
 No Linux, possuimos um sistema de controle de permissão onde cada arquivo e diretório possui informações sobre: **permissões** que controlam quem pode ler, escrever ou executar.
 
